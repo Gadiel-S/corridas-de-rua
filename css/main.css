@@ -1,0 +1,101 @@
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(204, 231, 231);
+  overflow-x: hidden;
+}
+
+main {
+  margin-top: 3rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  margin: 5rem 0 2.5rem;
+}
+.main-menu h2 {
+  font-size: 1.7rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.main-menu a {
+  color: rgb(24, 187, 187);
+}
+.main-menu img {
+  width: 10px;
+  margin-left: 4px;
+}
+
+.eventos {
+  margin-bottom: 2rem;
+}
+
+.evento {
+  display: flex;
+  flex-direction: column;
+}
+.evento img {
+  width: 100%;
+  display: flex;
+}
+.evento .imagem-evento {
+  position: relative;
+}
+.evento .data-evento {
+  position: absolute;
+  top: 0;
+  color: white;
+  background-color: rgba(0, 255, 255, 0.7);
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  height: 100%;
+  line-height: 1.2;
+  font-size: 1.4rem;
+}
+.evento .data-evento :first-child {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.evento-info {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  overflow-x: hidden;
+}
+.evento-info button {
+  background-color: rgb(24, 187, 187);
+  height: 100%;
+  width: 8rem;
+}
+.evento-info button img {
+  width: 2rem;
+  margin: 0 auto;
+}
+
+.evento-descricao {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.evento-descricao span {
+  color: gray;
+  font-size: 1.4rem;
+}
+
+.botao-confira {
+  background-color: rgb(24, 187, 187);
+  color: white;
+  padding: 1rem 0;
+  font-size: 1.7rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  margin: 5rem 0 3rem;
+}

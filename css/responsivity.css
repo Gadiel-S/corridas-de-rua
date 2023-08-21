@@ -1,0 +1,93 @@
+@supports (position: sticky) {
+  .cabecalho-container {
+    position: sticky;
+  }
+}
+@media screen and (min-width: 300px) {
+  .menu {
+    flex-direction: row;
+  }
+  .links-menu {
+    width: 25rem;
+  }
+  .evento-destaque-info {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 500px) {
+  .evento-destaque {
+    max-width: 90%;
+  }
+}
+@supports (grid-area: auto) {
+  @media screen and (min-width: 800px) {
+    .cabecalho, .evento-destaque-container, main {
+      width: 75rem;
+      margin: 0 auto;
+    }
+    .cabecalho-container {
+      background-color: white;
+    }
+    .cabecalho {
+      display: flex;
+      align-items: center;
+    }
+    .menu .logo {
+      background-color: rgb(24, 187, 187);
+      margin: 0;
+      max-width: 100%;
+      width: 30rem;
+    }
+    .botao-menu {
+      display: none;
+    }
+    .links-menu {
+      display: flex;
+      position: static;
+      background-color: inherit;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      font-size: 1.5rem;
+      text-align: left;
+    }
+    .links-menu li {
+      border: none;
+      color: black;
+      padding: 0.5rem 2rem;
+    }
+    .links-menu button {
+      display: none;
+    }
+    .evento-destaque-container {
+      justify-content: flex-start;
+    }
+    .evento-destaque {
+      width: 30rem;
+      height: 50rem;
+      margin: 0;
+    }
+    .eventos {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 3rem;
+    }
+  }
+}
+@supports (grid-area: auto) {
+  @media screen and (min-width: 1000px) {
+    .cabecalho, .evento-destaque-container, main {
+      width: 95rem;
+    }
+  }
+}
+@supports (grid-area: auto) {
+  @media screen and (min-width: 1200px) {
+    .cabecalho, .evento-destaque-container, main {
+      width: 115rem;
+    }
+    .links-menu {
+      justify-content: flex-end;
+    }
+  }
+}

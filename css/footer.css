@@ -1,0 +1,45 @@
+footer {
+  background-color: rgb(24, 187, 187);
+  display: flex;
+  gap: 1rem;
+  padding: 2rem 0;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.botao-subir {
+  display: none;
+  background-color: rgb(24, 187, 187);
+  opacity: 0.8;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  padding: 8px 10px;
+}
+
+.encolher-cabecalho .logo {
+  font-size: 2rem;
+}
+
+.mostrar-botao-subir {
+  display: block;
+}
+
+.abrir-menu {
+  display: flex;
+}
+
+.imagem-ativa {
+  display: block;
+}
+
+.evento-ativo {
+  display: flex;
+}

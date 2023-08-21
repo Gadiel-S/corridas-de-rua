@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Corridas de Rua - RS</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/scripts.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <nav class="cabecalho-container">
+      <div class="cabecalho">
+        <div class="menu">
+          <h1 class="logo">Corridas de Rua</h1>
+          <button class="botao-menu">
+            <img
+              src="./assets/botao-menu.svg"
+              alt="Botão do menu"
+            />
+          </button>
+        </div>
+        <ul class="links-menu">
+          <a href="#"><li>Eventos</li></a>
+          <a href="#"><li>Envie seu Evento</li></a>
+          <a href="#"><li>Contato</li></a>
+          <a href="#"><li>Anuncie Aqui</li></a>
+          <a href="#"><li>Instagram</li></a>
+          <a href="#"><li>Facebook</li></a>
+          <button><li>Fechar</li></button>
+        </ul>
+      </div>
+    </nav>
+
+    <header>
+      <div class="destaque-container">
+        <img class="destaque-fundo imagem-ativa" src="./assets/corrida-1.jpg" />
+        <img class="destaque-fundo" src="./assets/corrida-2.jpg" />
+        <img class="destaque-fundo" src="./assets/corrida-3.jpg" />
+
+        <div class="evento-destaque-container">
+        <div class="evento-destaque evento-ativo">
+          <h3>Evento 1</h3>
+
+          <div class="evento-destaque-info">
+            <div class="evento-destaque-data">
+              <span>Mês</span>
+              <span>Dia</span>
+              <span>Ano</span>
+            </div>
+            <a href="#" class="botao-detalhes">Detalhes</a>
+          </div>
+
+          <div class="evento-destaque-localizacao">
+            <i class="bi bi-geo-alt-fill"></i>
+            <span>localização</span>
+          </div>
+          <div class="evento-destaque-horario">
+            <i class="bi bi-calendar"></i>
+            <span>Horário</span>
+          </div>
+        </div>
+
+        <div class="evento-destaque">
+          <h3>Evento 2</h3>
+
+          <div class="evento-destaque-info">
+            <div class="evento-destaque-data">
+              <span>Mês</span>
+              <span>Dia</span>
+              <span>Ano</span>
+            </div>
+            <a href="#" class="botao-detalhes">Detalhes</a>
+          </div>
+
+          <div class="evento-destaque-localizacao">
+            <i class="bi bi-geo-alt-fill"></i>
+            <span>localização</span>
+          </div>
+          <div class="evento-destaque-horario">
+            <i class="bi bi-calendar"></i>
+            <span>Horário</span>
+          </div>
+        </div>
+
+        <div class="evento-destaque">
+          <h3>Evento 3</h3>
+
+          <div class="evento-destaque-info">
+            <div class="evento-destaque-data">
+              <span>Mês</span>
+              <span>Dia</span>
+              <span>Ano</span>
+            </div>
+            <a href="#" class="botao-detalhes">Detalhes</a>
+          </div>
+
+          <div class="evento-destaque-localizacao">
+            <i class="bi bi-geo-alt-fill"></i>
+            <span>localização</span>
+          </div>
+          <div class="evento-destaque-horario">
+            <i class="bi bi-calendar"></i>
+            <span>Horário</span>
+          </div>
+        </div>
+        </div>
+
+        <button class="botao-voltar">
+          <i class="bi bi-chevron-left"></i>
+        </button>
+        <button class="botao-proximo">
+          <i class="bi bi-chevron-right"></i>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-menu">
+        <h2>Próximos Eventos</h2>
+        <a href="#">Todos os eventos<img src="./assets/chevron-right.svg" /></a>
+      </div>
+
+      <div class="eventos">
+        <div class="evento">
+          <div class="imagem-evento">
+            <a href="#"><img src="./assets/corrida-2.jpg" alt="Pessoas caminhando" /></a>
+            <div class="data-evento">
+              <span>Dia</span>
+              <span>Mês</span>
+              <span>Ano</span>
+            </div>
+          </div>
+          <div class="evento-info">
+            <div class="evento-descricao">
+              <h4>Nome corrida</h4>
+              <span>Localização</span>
+              <span>Horário</span>
+            </div>
+            <a href="#"
+              ><button>
+                <img
+                  src="./assets/chevron-right.svg"
+                  alt="link do evento"
+                /></button
+            ></a>
+          </div>
+        </div>
+
+        <div class="evento">
+          <div class="imagem-evento">
+            <a href="#"><img src="./assets/corrida-3.jpg" alt="Pessoas caminhando" /></a>
+            <div class="data-evento">
+              <span>Dia</span>
+              <span>Mês</span>
+              <span>Ano</span>
+            </div>
+          </div>
+          <div class="evento-info">
+            <div class="evento-descricao">
+              <h4>Nome corrida</h4>
+              <span>Localização</span>
+              <span>Horário</span>
+            </div>
+            <a href="#"
+              ><button>
+                <img
+                  src="./assets/chevron-right.svg"
+                  alt="link do evento"
+                /></button
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#"
+        ><button class="botao-confira">Confira o Calendário Completo</button></a
+      >
+    </main>
+
+    <footer>
+      <p>Desenvolvido por Gadiel Souza</p>
+      <ul class="footer-links">
+        <li>
+          <a href="#"><img src="./assets/facebook.svg" alt="Facebook" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./assets/instagram.svg" alt="Instagram" /></a>
+        </li>
+      </ul>
+      <a href="#"><button class="botao-subir"><img src="./assets/chevron-up.svg" /></button></a>
+    </footer>
+  </body>
+</html>
