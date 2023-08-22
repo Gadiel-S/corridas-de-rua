@@ -206,6 +206,7 @@ main {
 .evento {
   display: flex;
   flex-direction: column;
+  margin-bottom: 2rem;
 }
 .evento img {
   width: 100%;
@@ -387,6 +388,9 @@ footer {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 3rem;
+    }
+    .evento {
+      margin-bottom: 0;
     }
   }
 }
